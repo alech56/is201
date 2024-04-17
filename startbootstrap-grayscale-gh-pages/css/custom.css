@@ -1,0 +1,91 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.line {
+    color: black;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .res-head {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .body-text {
+    font-size: 18px;
+    font-weight: 100;
+    color: black;
+  }
+
+  .job-text {
+    font-size: 18px;
+    font-weight: 800;
+    color: black;
+  }
+
+  ul {
+    font-size:18px;
+    font-weight: 100;
+    list-style-position: inside;
+    color: black;
+  }
+
+  .header-background {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #b0a9a9 100%), url("../assets/img/rock.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 75vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.header-background h1 {
+    font-size: 4em;
+    margin: 0.5em 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 0;
+}
+
+.header-background p {
+    font-size: 2em; 
+    margin-bottom: 2em; 
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0;
+}
+
+.tableau {
+    background-color: #002f5d;
+    padding: 20px;
+    text-align: center; 
+    max-width: 1400px;
+    color: #ffffff;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.Footer{
+    position:fixed;
+    color: #ffffff;
+    background-color: #002f5d;
+    bottom: 0px;
+    right: 3px;
+    left: 3px;
+    height: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.youtube{
+    background-color: #D1CCBD;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
